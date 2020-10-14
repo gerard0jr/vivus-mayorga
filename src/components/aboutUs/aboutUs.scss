@@ -1,0 +1,249 @@
+.app-container-white{
+    background-color: #F5F5F5;
+    border-top: 2px solid rgba(217,217,217,0.44);
+    margin-top: -0.9rem;
+    margin-bottom: -5.5rem;
+    padding-bottom: 3rem;
+}
+
+.first-block{
+    display: flex;    
+    max-width: 1100px;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-block-left{
+    text-align: left;
+    width: 60%;
+    padding: 2rem;
+}
+
+.first-block-left h2{
+    font-size: 3.5rem;
+    font-weight: 300;
+    width: fit-content;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin: 2rem 0 2rem -2rem !important;
+    background-color: #026D35;
+    color: white;
+    padding: 0 1rem;
+}
+
+.first-block-left p{
+    font-size: 1.2rem;
+}
+
+.first-block-right{
+    width: 40%;
+    padding: 2rem;
+}
+
+.first-block-right img{
+    width: 100%;
+    max-width: 300px;
+    transform: rotateZ(15deg);
+    -webkit-transform: rotateZ(15deg);
+    -moz-transform: rotateZ(15deg);
+    -ms-transform: rotateZ(15deg);
+    -o-transform: rotateZ(15deg);
+}
+
+.second-block{
+    background-color: #A7CE3A;
+    -webkit-transform: skew(0deg, -5deg);
+    transform: skew(0deg, -5deg);
+}
+
+.second-block-title{
+    color: white;
+    font-size: 2rem;
+    transform: skew(0deg, 5deg);
+    margin: 0;
+    padding: 6rem 0 0;
+    -webkit-transform: skew(0deg, 5deg);
+    -moz-transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
+    -o-transform: skew(0deg, 5deg);
+}
+
+.second-block-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature h2, .feature p{
+    color: white;
+}
+
+.reasons-container-us{
+    transform: skew(0deg, 5deg);
+    margin: 0;
+    padding: 0;
+    -webkit-transform: skew(0deg, 5deg);
+    -moz-transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
+    -o-transform: skew(0deg, 5deg);
+}
+
+.about-features{
+    display: flex;
+    padding: 0 10rem;
+    margin: 2rem 0;
+}
+
+.third-block{
+    background-image: url('/img/map.svg');
+    background-repeat: no-repeat;
+    background-position: 40rem 1%;
+}
+
+.third-block-left{
+    padding: 4rem 0rem 2rem 8rem;
+    text-align: left;
+}
+
+.third-block-left h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.third-block-left p{
+    font-size: 1.1rem;
+    max-width: 400px;
+}
+
+.fourth-block{
+    background-color: #ECEEF2;
+    -webkit-transform: skew(0deg, -5deg);
+    transform: skew(0deg, -5deg);
+}
+
+.bottom-info-content{
+    transform: skew(0deg, 5deg);
+    padding: 0;
+}
+
+.wallet-block{
+    display: flex;    
+    max-width: 1100px;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallet-block-left{
+    text-align: left;
+    width: 70%;
+    padding: 6rem 2rem;
+}
+
+.wallet-block-left h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin: 2rem 0 !important;
+}
+
+.wallet-block-left p{
+    font-size: 1.1rem;
+}
+
+.wallet-block-right{
+    width: 30%;
+    padding: 2rem;
+}
+
+.wallet-block-right img{
+    width: 80%;
+}
+
+.umbrella-block{
+    display: flex;    
+    max-width: 1100px;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.umbrella-block-left{
+    text-align: left;
+    width: 70%;
+    padding: 6rem 2rem;
+    z-index: 1;
+}
+
+.umbrella-block-left h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-block-start: 0 !important;
+    margin-block-end: 1rem !important;
+    margin: 2rem 0 0 0;
+}
+
+.umbrella-block-left p{
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    margin-block-end: 2rem !important;
+}
+
+.umbrella-block-left img{
+    width: 20px;
+    margin: 0 1rem 0 0;
+}
+
+.umbrella-block-right{
+    width: 30%;
+    padding: 2rem;
+}
+
+.umbrella-block-right img{
+    width: 80%;
+}
+
+.goTo-about-us{
+    transform: skew(0deg, 5deg);
+}
+
+@media(max-width: 1280px){
+    .third-block{
+        background-position: 27rem 1%;
+    }
+}
+
+@media(max-width: 1000px){
+    .first-block{
+        flex-direction: column;
+    }
+    .about-features{
+        flex-direction: column;
+    }
+    .second-block-title{
+        padding: 6rem 5rem 0;
+    }
+    .third-block{
+        background-position: 10rem 1%;
+    }
+}
+
+@media(max-width: 650px){
+    .third-block-left{
+        padding: 4rem 0rem 0 1rem;
+    }
+    .wallet-block, .umbrella-block{
+        flex-direction: column;
+    }
+    .about-features{
+        padding: 0 3rem;
+    }
+    .app-container-white{
+        margin-top: 1rem;
+    }
+}
